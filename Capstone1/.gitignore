@@ -1,0 +1,41 @@
+# Environment variables and secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
